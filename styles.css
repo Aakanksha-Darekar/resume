@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+/* Landing Section */
+#landing {
+    background-image: url('resume_image_final.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+
+.profile img {
+    border-radius: 50%;
+    width: 180px;
+    height: 240px;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.tagline {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.scroll-arrow a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* About Section */
+#about {
+    padding: 40px;
+    background-color: #f0f0f0;
+    color: black;
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+}
+
+#about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px;
+    background-color: #f0f0f0;
+    color: black;
+    text-align: left;
+}
+
+.projects-header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-item img {
+    width: 200px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.project-item a {
+    color: #0077b5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* LinkedIn button */
+#linkedin-link {
+    display: inline-block;
+    background-color: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#linkedin-link:hover {
+    background-color: #005f87;
+}
+
+.info-section {
+    background-color: #f0f0f0;
+    color: black;
+    padding: 50px 20px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.section-block {
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.section-block h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0077b5;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077b5;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.resume-button:hover {
+    background-color: #005f87;
+}
+
+#data-analyst-projects {
+    background-color: #e6e6e6;  /* Light grey */
+    padding: 40px;
+    color: black;
+    text-align: left;
+}
+
+#certificates {
+    background-color: #e6e6e6; /* Light grey */
+    padding: 40px;
+    color: black;
+    text-align: left;
+}
