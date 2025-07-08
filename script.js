@@ -34,7 +34,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         // Add scrolling to each section
         addScrollFunctionality("projects-container-ml");
         addScrollFunctionality("projects-container-data");
-
+        addScrollFunctionality("bi-projects-container");
+        
     } catch (error) {
         console.error("Error:", error);
     }
