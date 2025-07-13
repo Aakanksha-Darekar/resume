@@ -78,23 +78,23 @@ body {
     display: flex;
     flex-direction: row;
     overflow-x: auto;
-    gap: 20px;
-    padding: 10px;
+    overflow-y: hidden;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
+    gap: 20px;
+    padding: 10px;
+    
 }
 
 .project-item {
-    flex-shrink: 0;
-    min-width: 300px;
-    max-width: 300px;
+    flex: 0 0 320px; /* Fixed width for scroll */
+    background: white;
     padding: 20px;
     border-radius: 12px;
-    background-color: white;
-    color: black;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     scroll-snap-align: start;
+    display: block;
 }
 
 
@@ -104,15 +104,14 @@ body {
     object-fit: contain;
     border-radius: 8px;
     margin-bottom: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .project-item a {
-    color: #0077b5;
+    margin-top: auto;
+    color: #0056b3;
     font-weight: bold;
     text-decoration: none;
+    display: inline-block;
 }
 
 /* LinkedIn button */
@@ -215,7 +214,7 @@ body {
 .project-item h3 {
     font-size: 18px;
     font-weight: bold;
-    margin: 10px 0;
+    margin: 10px 0 5px;
     font-style: italic;
 }
 
@@ -223,6 +222,7 @@ body {
     font-size: 14px;
     text-align: justify;
     line-height: 1.5;
-    margin-bottom: 10px;
+    margin: 10px 0px;
     color: #333;
+    flex-grow: 1;
 }
